@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+/*retira o padding top só da pagina seguros*/
+#seguros .seguros {
+  padding-top: 0px;
+}
+
 .seguros h2 {
   grid-column: 1/ -1;
 }
